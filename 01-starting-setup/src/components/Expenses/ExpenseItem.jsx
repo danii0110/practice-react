@@ -1,12 +1,15 @@
+import { useState } from 'react';
+
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
-  let title = props.title;
+  const [title, setTitle] = useState(props.title);
 
   const clickHandler = () => {
-    title = 'Update!';
+    setTitle('Updated!');
+    console.log(title);
   };
 
   return (
