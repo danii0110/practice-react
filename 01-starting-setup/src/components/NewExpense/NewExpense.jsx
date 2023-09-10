@@ -5,6 +5,7 @@ const NewExpense = () => {
   return (
     <div className='new-expense'>
       <ExpenseForm />
+      <div>temp</div>
     </div>
   );
 };
