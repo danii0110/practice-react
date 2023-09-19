@@ -3,8 +3,6 @@ import Card from '../UI/Card';
 import './ExpenseItem.css';
 
 const ExpenseItem = (props) => {
-  console.log('ExpenseItem evaluated by React');
-
   return (
     <li>
       <Card className='expense-item'>
@@ -17,4 +15,5 @@ const ExpenseItem = (props) => {
     </li>
   );
 };
+
 export default ExpenseItem;
