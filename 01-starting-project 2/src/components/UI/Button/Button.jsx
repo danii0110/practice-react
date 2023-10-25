@@ -37,4 +37,3 @@ const Button = (props) => {
 };
 
 export default Button;
-//temp
