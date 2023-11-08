@@ -129,4 +129,3 @@ const Login = (props) => {
 };
 
 export default Login;
-//TODO: add button component
